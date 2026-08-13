@@ -1,0 +1,609 @@
+{
+  "siteMap": {
+    "d1-01-a7d07b9c": "1-1",
+    "d1-02-2cda5487": "1-2",
+    "d1-03-9b37a29a": "1-3",
+    "d1-04-452c827c": "1-4",
+    "d1-05-31e05d47": "1-5",
+    "d1-06-11cd6041": "1-6",
+    "d1-07-74a81188": "1-7",
+    "d1-08-d5495dc0": "1-8",
+    "d1-09-f620f5c4": "1-9",
+    "d1-10-1cbfeb1a": "1-10",
+    "d1-11-4b470a50": "1-11",
+    "d1-12-b16f743b": "1-12",
+    "d1-13-1dbf555a": "1-13",
+    "d1-14-4dab8c2b": "1-14",
+    "d1-15-c943b24b": "1-15",
+    "d1-16-b571420a": "1-16",
+    "d1-17-79642f21": "1-17",
+    "d1-18-55085cf6": "1-18",
+    "d1-19-5da62bd0": "1-19",
+    "d1-20-51f87952": "1-20",
+    "d1-21-9f074ab7": "1-21",
+    "d1-22-6651e8c7": "1-22",
+    "d1-23-53d574b9": "1-23",
+    "d1-24-fee55ac3": "1-24",
+    "d1-25-9315f45f": "1-25",
+    "d1-26-613be629": "1-26",
+    "d1-27-3e12b868": "1-27",
+    "d1-28-70c7e67d": "1-28",
+    "d1-29-c983df43": "1-29",
+    "d1-30-28ec455e": "1-30",
+    "d1-31-5ce14a2e": "1-31",
+    "d1-32-683401d8": "1-32",
+    "d1-33-4dba17b6": "1-33",
+    "d1-34-8da815fb": "1-34",
+    "d1-35-c4375eb1": "1-35",
+    "d1-36-c70a15ae": "1-36",
+    "d1-37-c927f22d": "1-37",
+    "d1-38-4b4dcc52": "1-38",
+    "d1-39-6054922b": "1-39",
+    "d1-40-d8e2f5f7": "1-40",
+    "d1-41-10077a62": "1-41",
+    "d1-42-030acac5": "1-42",
+    "d1-43-a252b635": "1-43",
+    "d1-44-580eae80": "1-44",
+    "d1-45-7c61efdc": "1-45",
+    "d1-46-52e23d06": "1-46",
+    "d1-47-979dddee": "1-47",
+    "d1-48-621d75d1": "1-48",
+    "d2-01-3e7d9a20": "2-1",
+    "d2-02-d5ae91c7": "2-2",
+    "d2-03-7b307113": "2-3",
+    "d2-04-236b0250": "2-4",
+    "d2-05-e4019171": "2-5",
+    "d2-06-7df2ff6e": "2-6",
+    "d2-07-b4f1ae3c": "2-7",
+    "d2-08-671f599e": "2-8",
+    "d2-09-1ea0e4a7": "2-9",
+    "d2-10-e824c35a": "2-10",
+    "d2-11-e627ca7c": "2-11",
+    "d2-12-a9107944": "2-12",
+    "d2-13-012d072f": "2-13",
+    "d2-14-8e6d2e1f": "2-14",
+    "d2-15-15f46835": "2-15",
+    "d2-16-aee8c061": "2-16",
+    "d2-17-f3cf5d4a": "2-17",
+    "d2-18-91031cd4": "2-18",
+    "d2-19-1a58c67e": "2-19"
+  },
+  "lessons": [
+    {
+      "course": 1,
+      "number": 1,
+      "unit": 1,
+      "topic": "INTRO: What is debate? ; Unit 1 - Read a Book or Watch a Movie?",
+      "type": "theory",
+      "slug": "d1-01-a7d07b9c"
+    },
+    {
+      "course": 1,
+      "number": 2,
+      "unit": 1,
+      "topic": "Unit 1 - Read a Book or Watch a Movie?",
+      "type": "writing",
+      "slug": "d1-02-2cda5487"
+    },
+    {
+      "course": 1,
+      "number": 3,
+      "unit": 1,
+      "topic": "Unit 1 - Read a Book or Watch a Movie?",
+      "type": "debate",
+      "slug": "d1-03-9b37a29a"
+    },
+    {
+      "course": 1,
+      "number": 4,
+      "unit": 2,
+      "topic": "Unit 2 - Eating insects instead of animals",
+      "type": "theory",
+      "slug": "d1-04-452c827c"
+    },
+    {
+      "course": 1,
+      "number": 5,
+      "unit": 2,
+      "topic": "Unit 2 - Eating insects instead of animals",
+      "type": "writing",
+      "slug": "d1-05-31e05d47"
+    },
+    {
+      "course": 1,
+      "number": 6,
+      "unit": 2,
+      "topic": "Unit 2 - Eating insects instead of animals",
+      "type": "debate",
+      "slug": "d1-06-11cd6041"
+    },
+    {
+      "course": 1,
+      "number": 7,
+      "unit": 3,
+      "topic": "Unit 3 - Public holidays in Vietnam",
+      "type": "theory",
+      "slug": "d1-07-74a81188"
+    },
+    {
+      "course": 1,
+      "number": 8,
+      "unit": 3,
+      "topic": "Unit 3 - Public holidays in Vietnam",
+      "type": "writing",
+      "slug": "d1-08-d5495dc0"
+    },
+    {
+      "course": 1,
+      "number": 9,
+      "unit": 3,
+      "topic": "Unit 3 - Public holidays in South Korea",
+      "type": "debate",
+      "slug": "d1-09-f620f5c4"
+    },
+    {
+      "course": 1,
+      "number": 10,
+      "unit": 4,
+      "topic": "Unit 4 - Four Seasons or One Season?",
+      "type": "theory",
+      "slug": "d1-10-1cbfeb1a"
+    },
+    {
+      "course": 1,
+      "number": 11,
+      "unit": 4,
+      "topic": "Unit 4 - Four Seasons or One Season?",
+      "type": "writing",
+      "slug": "d1-11-4b470a50"
+    },
+    {
+      "course": 1,
+      "number": 12,
+      "unit": 4,
+      "topic": "Unit 4 - Four Seasons or One Season?",
+      "type": "debate",
+      "slug": "d1-12-b16f743b"
+    },
+    {
+      "course": 1,
+      "number": 13,
+      "unit": 5,
+      "topic": "Unit 5 - Do we still need libraries?",
+      "type": "theory",
+      "slug": "d1-13-1dbf555a"
+    },
+    {
+      "course": 1,
+      "number": 14,
+      "unit": 5,
+      "topic": "Unit 5 - Do we still need libraries?",
+      "type": "writing",
+      "slug": "d1-14-4dab8c2b"
+    },
+    {
+      "course": 1,
+      "number": 15,
+      "unit": 5,
+      "topic": "Unit 5 - Do we still need libraries?",
+      "type": "debate",
+      "slug": "d1-15-c943b24b"
+    },
+    {
+      "course": 1,
+      "number": 16,
+      "unit": 6,
+      "topic": "Unit 6 - House or Apartment?",
+      "type": "theory",
+      "slug": "d1-16-b571420a"
+    },
+    {
+      "course": 1,
+      "number": 17,
+      "unit": 6,
+      "topic": "Unit 6 - House or Apartment?",
+      "type": "writing",
+      "slug": "d1-17-79642f21"
+    },
+    {
+      "course": 1,
+      "number": 18,
+      "unit": 6,
+      "topic": "Unit 6 - House or Apartment?",
+      "type": "debate",
+      "slug": "d1-18-55085cf6"
+    },
+    {
+      "course": 1,
+      "number": 19,
+      "unit": 7,
+      "topic": "Unit 7 - What should we learn in school?",
+      "type": "theory",
+      "slug": "d1-19-5da62bd0"
+    },
+    {
+      "course": 1,
+      "number": 20,
+      "unit": 7,
+      "topic": "Unit 7 - What should we learn in school?",
+      "type": "writing",
+      "slug": "d1-20-51f87952"
+    },
+    {
+      "course": 1,
+      "number": 21,
+      "unit": 7,
+      "topic": "Unit 7 - What should we learn in school?",
+      "type": "debate",
+      "slug": "d1-21-9f074ab7"
+    },
+    {
+      "course": 1,
+      "number": 22,
+      "unit": 8,
+      "topic": "Unit 8 - Choosing Where To Go On Vacation",
+      "type": "theory",
+      "slug": "d1-22-6651e8c7"
+    },
+    {
+      "course": 1,
+      "number": 23,
+      "unit": 8,
+      "topic": "Unit 8 - Choosing Where To Go On Vacation",
+      "type": "writing",
+      "slug": "d1-23-53d574b9"
+    },
+    {
+      "course": 1,
+      "number": 24,
+      "unit": 8,
+      "topic": "Unit 8 - Choosing Where To Go On Vacation",
+      "type": "debate",
+      "slug": "d1-24-fee55ac3"
+    },
+    {
+      "course": 1,
+      "number": 25,
+      "unit": 9,
+      "topic": "Unit 9 - Cars that drive themselves",
+      "type": "theory",
+      "slug": "d1-25-9315f45f"
+    },
+    {
+      "course": 1,
+      "number": 26,
+      "unit": 9,
+      "topic": "Unit 9 - Cars that drive themselves",
+      "type": "writing",
+      "slug": "d1-26-613be629"
+    },
+    {
+      "course": 1,
+      "number": 27,
+      "unit": 9,
+      "topic": "Unit 9 - Cars that drive themselves",
+      "type": "debate",
+      "slug": "d1-27-3e12b868"
+    },
+    {
+      "course": 1,
+      "number": 28,
+      "unit": 10,
+      "topic": "Unit 10 - Children doing chores",
+      "type": "theory",
+      "slug": "d1-28-70c7e67d"
+    },
+    {
+      "course": 1,
+      "number": 29,
+      "unit": 10,
+      "topic": "Unit 10 - Children doing chores",
+      "type": "writing",
+      "slug": "d1-29-c983df43"
+    },
+    {
+      "course": 1,
+      "number": 30,
+      "unit": 10,
+      "topic": "Unit 10 - Children doing chores",
+      "type": "debate",
+      "slug": "d1-30-28ec455e"
+    },
+    {
+      "course": 1,
+      "number": 31,
+      "unit": 11,
+      "topic": "Unit 11 - Students should have part-time jobs",
+      "type": "theory",
+      "slug": "d1-31-5ce14a2e"
+    },
+    {
+      "course": 1,
+      "number": 32,
+      "unit": 11,
+      "topic": "Unit 11 - Students should have part-time jobs",
+      "type": "writing",
+      "slug": "d1-32-683401d8"
+    },
+    {
+      "course": 1,
+      "number": 33,
+      "unit": 11,
+      "topic": "Unit 11 - Students should have part-time jobs",
+      "type": "debate",
+      "slug": "d1-33-4dba17b6"
+    },
+    {
+      "course": 1,
+      "number": 34,
+      "unit": 12,
+      "topic": "Unit 12 - Money is the best gift",
+      "type": "theory",
+      "slug": "d1-34-8da815fb"
+    },
+    {
+      "course": 1,
+      "number": 35,
+      "unit": 12,
+      "topic": "Unit 12 - Money is the best gift",
+      "type": "writing",
+      "slug": "d1-35-c4375eb1"
+    },
+    {
+      "course": 1,
+      "number": 36,
+      "unit": 12,
+      "topic": "Unit 12 - Money is the best gift",
+      "type": "debate",
+      "slug": "d1-36-c70a15ae"
+    },
+    {
+      "course": 1,
+      "number": 37,
+      "unit": 13,
+      "topic": "Unit 13 - Teacher or No Teacher?",
+      "type": "theory",
+      "slug": "d1-37-c927f22d"
+    },
+    {
+      "course": 1,
+      "number": 38,
+      "unit": 13,
+      "topic": "Unit 13 - Teacher or No Teacher?",
+      "type": "writing",
+      "slug": "d1-38-4b4dcc52"
+    },
+    {
+      "course": 1,
+      "number": 39,
+      "unit": 13,
+      "topic": "Unit 13 - Teacher or No Teacher?",
+      "type": "debate",
+      "slug": "d1-39-6054922b"
+    },
+    {
+      "course": 1,
+      "number": 40,
+      "unit": 14,
+      "topic": "Unit 14 - Using Public Transportation",
+      "type": "theory",
+      "slug": "d1-40-d8e2f5f7"
+    },
+    {
+      "course": 1,
+      "number": 41,
+      "unit": 14,
+      "topic": "Unit 14 - Using Public Transportation",
+      "type": "writing",
+      "slug": "d1-41-10077a62"
+    },
+    {
+      "course": 1,
+      "number": 42,
+      "unit": 14,
+      "topic": "Unit 14 - Using Public Transportation",
+      "type": "debate",
+      "slug": "d1-42-030acac5"
+    },
+    {
+      "course": 1,
+      "number": 43,
+      "unit": 15,
+      "topic": "Unit 15 - I want to be famous!",
+      "type": "theory",
+      "slug": "d1-43-a252b635"
+    },
+    {
+      "course": 1,
+      "number": 44,
+      "unit": 15,
+      "topic": "Unit 15 - I want to be famous!",
+      "type": "writing",
+      "slug": "d1-44-580eae80"
+    },
+    {
+      "course": 1,
+      "number": 45,
+      "unit": 15,
+      "topic": "Unit 15 - I want to be famous!",
+      "type": "debate",
+      "slug": "d1-45-7c61efdc"
+    },
+    {
+      "course": 1,
+      "number": 46,
+      "unit": 16,
+      "topic": "Unit 16 - Spend or Save ?",
+      "type": "theory",
+      "slug": "d1-46-52e23d06"
+    },
+    {
+      "course": 1,
+      "number": 47,
+      "unit": 16,
+      "topic": "Unit 16 - Spend or Save?",
+      "type": "writing",
+      "slug": "d1-47-979dddee"
+    },
+    {
+      "course": 1,
+      "number": 48,
+      "unit": 16,
+      "topic": "Unit 16 - Spend or Save?",
+      "type": "debate",
+      "slug": "d1-48-621d75d1"
+    },
+    {
+      "course": 2,
+      "number": 1,
+      "unit": 1,
+      "topic": "Unit 1 - Is Homework Helpful?",
+      "type": "theory",
+      "slug": "d2-01-3e7d9a20"
+    },
+    {
+      "course": 2,
+      "number": 2,
+      "unit": 1,
+      "topic": "Unit 1 - Is Homework Helpful?",
+      "type": "writing",
+      "slug": "d2-02-d5ae91c7"
+    },
+    {
+      "course": 2,
+      "number": 3,
+      "unit": 1,
+      "topic": "Unit 1 - Is Homework Helpful?",
+      "type": "debate",
+      "slug": "d2-03-7b307113"
+    },
+    {
+      "course": 2,
+      "number": 4,
+      "unit": 2,
+      "topic": "Unit 2 - Internet Shopping is the future",
+      "type": "theory",
+      "slug": "d2-04-236b0250"
+    },
+    {
+      "course": 2,
+      "number": 5,
+      "unit": 2,
+      "topic": "Unit 2 - Internet Shopping is the future",
+      "type": "writing",
+      "slug": "d2-05-e4019171"
+    },
+    {
+      "course": 2,
+      "number": 6,
+      "unit": 2,
+      "topic": "Unit 2 - Internet Shopping is the future",
+      "type": "debate",
+      "slug": "d2-06-7df2ff6e"
+    },
+    {
+      "course": 2,
+      "number": 7,
+      "unit": 3,
+      "topic": "Unit 3 - All students should have work experience",
+      "type": "theory",
+      "slug": "d2-07-b4f1ae3c"
+    },
+    {
+      "course": 2,
+      "number": 8,
+      "unit": 3,
+      "topic": "Unit 3 - All students should have work experience",
+      "type": "writing",
+      "slug": "d2-08-671f599e"
+    },
+    {
+      "course": 2,
+      "number": 9,
+      "unit": 3,
+      "topic": "Unit 3 - All students should have work experience",
+      "type": "debate",
+      "slug": "d2-09-1ea0e4a7"
+    },
+    {
+      "course": 2,
+      "number": 10,
+      "unit": 4,
+      "topic": "Unit 4 - Internet Cafes: Good fun or Dangerous?",
+      "type": "theory",
+      "slug": "d2-10-e824c35a"
+    },
+    {
+      "course": 2,
+      "number": 11,
+      "unit": 4,
+      "topic": "Unit 4 - Internet Cafes: Good fun or Dangerous?",
+      "type": "writing",
+      "slug": "d2-11-e627ca7c"
+    },
+    {
+      "course": 2,
+      "number": 12,
+      "unit": 4,
+      "topic": "Unit 4 - Internet Cafes: Good fun or Dangerous?",
+      "type": "debate",
+      "slug": "d2-12-a9107944"
+    },
+    {
+      "course": 2,
+      "number": 13,
+      "unit": 5,
+      "topic": "Unit 5 - One Global Language",
+      "type": "theory",
+      "slug": "d2-13-012d072f"
+    },
+    {
+      "course": 2,
+      "number": 14,
+      "unit": 5,
+      "topic": "Unit 5 - One Global Language",
+      "type": "writing",
+      "slug": "d2-14-8e6d2e1f"
+    },
+    {
+      "course": 2,
+      "number": 15,
+      "unit": 5,
+      "topic": "Unit 5 - One Global Language",
+      "type": "debate",
+      "slug": "d2-15-15f46835"
+    },
+    {
+      "course": 2,
+      "number": 16,
+      "unit": 6,
+      "topic": "Unit 6 - Computer-Graded Essays",
+      "type": "theory",
+      "slug": "d2-16-aee8c061"
+    },
+    {
+      "course": 2,
+      "number": 17,
+      "unit": 6,
+      "topic": "Unit 6 - Computer-Graded Essays",
+      "type": "writing",
+      "slug": "d2-17-f3cf5d4a"
+    },
+    {
+      "course": 2,
+      "number": 18,
+      "unit": 6,
+      "topic": "Unit 6 - Computer-Graded Essays",
+      "type": "debate",
+      "slug": "d2-18-91031cd4"
+    },
+    {
+      "course": 2,
+      "number": 19,
+      "unit": 7,
+      "topic": "Unit 7 - Children’s Privacy",
+      "type": "theory",
+      "slug": "d2-19-1a58c67e"
+    }
+  ]
+}
