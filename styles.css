@@ -28,7 +28,7 @@ img{max-width:100%}
 .brand-bar nav{display:flex;gap:8px}
 .brand-bar nav a{padding:9px 13px;border-radius:999px;color:var(--muted);font-size:13px;font-weight:800;text-decoration:none}
 .brand-bar nav a.active{background:var(--navy);color:#fff}
-.overline{margin:0 0 12px;color:var(--green);font-size:12px;font-weight:900;letter-spacing:.16em;text-transform:uppercase}
+.overline{margin:0 0 12px;color:var(--green);font-family:"Segoe UI",Arial,sans-serif;font-size:12px;font-weight:800;letter-spacing:.06em;text-transform:uppercase}
 
 .home-hero{min-height:520px;display:grid;grid-template-columns:minmax(0,1fr) 360px;gap:clamp(40px,7vw,110px);align-items:center;padding:clamp(62px,9vw,130px) clamp(24px,7vw,100px);background:radial-gradient(circle at 70% 20%,rgba(47,111,103,.13),transparent 30%),linear-gradient(135deg,#fffefb,#f6f1e4)}
 .hero-copy{max-width:780px}
@@ -100,7 +100,7 @@ img{max-width:100%}
 .task-section{display:grid;grid-template-columns:280px minmax(0,1fr);gap:clamp(30px,7vw,100px);padding:clamp(52px,7vw,92px) clamp(24px,7vw,100px);background:var(--navy);color:#fff}
 .task-label{display:flex;align-items:flex-start;gap:16px}
 .task-label span{color:#a9d0c7;font:44px Georgia, 'Times New Roman', serif}
-.task-label p{margin:12px 0 0;font-size:11px;font-weight:900;letter-spacing:.16em}
+.task-label p{margin:12px 0 0;font-family:"Segoe UI",Arial,sans-serif;font-size:11px;font-weight:800;letter-spacing:.06em}
 .task-section h2{color:#fff}
 .task-copy ol{max-width:820px;margin:28px 0;padding:0;list-style:none;counter-reset:task}
 .task-copy li{counter-increment:task;position:relative;margin:0;padding:18px 0 18px 52px;border-bottom:1px solid rgba(255,255,255,.14);color:#e4e7ef;line-height:1.65}
@@ -110,7 +110,7 @@ img{max-width:100%}
 .revision-section{padding:clamp(42px,6vw,88px) clamp(20px,7vw,100px);background:#f7f3e8;border-top:1px solid rgba(11,20,57,.12)}
 .revision-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin-top:32px}
 .revision-card{padding:clamp(20px,2.6vw,32px);background:#fff;border:1px solid rgba(11,20,57,.13);border-top:4px solid var(--green);box-shadow:0 18px 48px rgba(11,20,57,.06)}
-.revision-card>span{color:var(--green);font-size:11px;font-weight:900;letter-spacing:.13em}
+.revision-card>span{color:var(--green);font-family:"Segoe UI",Arial,sans-serif;font-size:11px;font-weight:800;letter-spacing:.06em}
 .revision-card h3{margin:7px 0 20px;color:var(--navy);font:clamp(20px,2vw,27px) Georgia, 'Times New Roman', serif}
 .revision-card label{display:grid;grid-template-columns:18px 1fr;gap:10px;align-items:start;margin:14px 0;color:#26324b;line-height:1.5}
 .revision-card input{width:17px;height:17px;margin-top:3px;accent-color:var(--green)}
