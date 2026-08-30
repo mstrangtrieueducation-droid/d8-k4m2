@@ -4,6 +4,12 @@ const SITE_MAP={"d1-01-a7d07b9c":"1-1","d1-02-2cda5487":"1-2","d1-03-9b37a29a":"
 COURSES[1].lessons.push({"course":2,"number":20,"unit":7,"topic":"Unit 7 - Children\u2019s Privacy","type":"writing","slideId":"1zy20RIWupC8pJBjpTgAzcBIb38pNkbXyDjU1dJdvogA","slideUrl":"https://docs.google.com/presentation/d/1zy20RIWupC8pJBjpTgAzcBIb38pNkbXyDjU1dJdvogA/edit?usp=sharing","videos":[],"sourceLabel":"Debate 2 - Ti\u1ebft 20"});
 SITE_MAP["d2-20-9c4e7a31"]="2-20";
 
+COURSES[1].lessons.push({"course":2,"number":21,"unit":7,"topic":"Unit 7 - Children\u2019s Privacy","type":"debate","slideId":"1nO-QYABYWZx-sWWfWsVFSoXnFgHwJytp8gqCJmuWC8Y","slideUrl":"https://docs.google.com/presentation/d/1nO-QYABYWZx-sWWfWsVFSoXnFgHwJytp8gqCJmuWC8Y/edit?usp=sharing","videos":["https://youtu.be/dEMXThjVxRg?si=OniVOsPkApLlQggb","https://youtu.be/fnEZSYFOa-w?si=oTMzuMJ-9h6CRPm6","https://youtu.be/LnnmHc27hFU?si=TluXwAsNfku5D4nm"],"sourceLabel":"Debate 2 - Ti\u1ebft 21"});
+SITE_MAP["d2-21-8f3c2a71"]="2-21";
+
+COURSES[1].lessons.push({"course":2,"number":22,"unit":8,"topic":"Unit 8 - Asking for Advice","type":"theory","slideId":"1bYuWJni_03u3D-RTbIsFEczHHBKSVaiycMie9MokIUM","slideUrl":"https://docs.google.com/presentation/d/1bYuWJni_03u3D-RTbIsFEczHHBKSVaiycMie9MokIUM/edit?usp=sharing","videos":[],"sourceLabel":"Debate 2 - Ti\u1ebft 22"});
+SITE_MAP["d2-22-b4e719c6"]="2-22";
+
 function escapeHtml(value){return String(value ?? "").replace(/[&<>"']/g,ch=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"})[ch]);}
 function cleanTopic(topic){return topic.replace(/^Unit\s*\d+\s*-\s*/i,"").trim();}
 function lessonKey(){
