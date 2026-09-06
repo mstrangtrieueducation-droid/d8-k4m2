@@ -10,6 +10,9 @@ SITE_MAP["d2-21-8f3c2a71"]="2-21";
 COURSES[1].lessons.push({"course":2,"number":22,"unit":8,"topic":"Unit 8 - Asking for Advice","type":"theory","slideId":"1bYuWJni_03u3D-RTbIsFEczHHBKSVaiycMie9MokIUM","slideUrl":"https://docs.google.com/presentation/d/1bYuWJni_03u3D-RTbIsFEczHHBKSVaiycMie9MokIUM/edit?usp=sharing","videos":[],"sourceLabel":"Debate 2 - Ti\u1ebft 22"});
 SITE_MAP["d2-22-b4e719c6"]="2-22";
 
+COURSES[1].lessons.push({"course":2,"number":23,"unit":8,"topic":"Unit 8 - Asking for Advice","type":"writing","slideId":"1wN59JjYdkWXtBV9tIeSxS0cn_qi-bU7Y3TBTQxLWKDY","slideUrl":"https://docs.google.com/presentation/d/1wN59JjYdkWXtBV9tIeSxS0cn_qi-bU7Y3TBTQxLWKDY/edit?usp=sharing","videos":[],"sourceLabel":"Debate 2 - Tiết 23"});
+SITE_MAP["d2-23-37c1e8a4"]="2-23";
+
 function escapeHtml(value){return String(value ?? "").replace(/[&<>"']/g,ch=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"})[ch]);}
 function cleanTopic(topic){return topic.replace(/^Unit\s*\d+\s*-\s*/i,"").trim();}
 function lessonKey(){

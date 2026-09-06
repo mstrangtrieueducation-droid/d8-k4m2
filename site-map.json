@@ -69,7 +69,8 @@
     "d2-19-1a58c67e": "2-19",
     "d2-20-9c4e7a31": "2-20",
     "d2-21-8f3c2a71": "2-21",
-    "d2-22-b4e719c6": "2-22"
+    "d2-22-b4e719c6": "2-22",
+    "d2-23-37c1e8a4": "2-23"
   },
   "lessons": [
     {
@@ -631,6 +632,14 @@
       "topic": "Unit 8 - Asking for Advice",
       "type": "theory",
       "slug": "d2-22-b4e719c6"
+    },
+    {
+      "course": 2,
+      "number": 23,
+      "unit": 8,
+      "topic": "Unit 8 - Asking for Advice",
+      "type": "writing",
+      "slug": "d2-23-37c1e8a4"
     }
   ]
 }
