@@ -16,12 +16,12 @@ SITE_MAP["d2-23-37c1e8a4"]="2-23";
 function escapeHtml(value){return String(value ?? "").replace(/[&<>"']/g,ch=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"})[ch]);}
 function cleanTopic(topic){return topic.replace(/^Unit\s*\d+\s*-\s*/i,"").trim();}
 function lessonKey(){
+  const direct=new URLSearchParams(location.search).get("lesson");
+  if(direct && /^d[12]-\d{2}$/.test(direct)) return direct.slice(1).replace("-","-");
   let slug="";
   try{slug=new URL(document.referrer).pathname.split("/").filter(Boolean).pop()||"";}catch{}
   const mapped=SITE_MAP[slug];
   if(mapped) return mapped;
-  const direct=new URLSearchParams(location.search).get("lesson");
-  if(direct && /^d[12]-\d{2}$/.test(direct)) return direct.slice(1).replace("-","-");
   const own=location.pathname.split("/").filter(Boolean).pop()||"";
   return SITE_MAP[own] || "1-1";
 }
