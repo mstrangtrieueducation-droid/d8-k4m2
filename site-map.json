@@ -613,7 +613,7 @@
       "course": 2,
       "number": 20,
       "unit": 7,
-      "topic": "Unit 7 - Children\u2019s Privacy",
+      "topic": "Unit 7 - Children’s Privacy",
       "type": "writing",
       "slug": "d2-20-9c4e7a31"
     },
@@ -621,7 +621,7 @@
       "course": 2,
       "number": 21,
       "unit": 7,
-      "topic": "Unit 7 - Children\u2019s Privacy",
+      "topic": "Unit 7 - Children’s Privacy",
       "type": "debate",
       "slug": "d2-21-8f3c2a71"
     },
@@ -640,6 +640,14 @@
       "topic": "Unit 8 - Asking for Advice",
       "type": "writing",
       "slug": "d2-23-37c1e8a4"
+    },
+    {
+      "course": 2,
+      "number": 24,
+      "unit": 8,
+      "topic": "Unit 8 - Asking for Advice",
+      "type": "debate",
+      "slug": "d2-24-58c94601"
     }
   ]
 }
