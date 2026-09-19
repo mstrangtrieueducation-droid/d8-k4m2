@@ -70,7 +70,8 @@
     "d2-20-9c4e7a31": "2-20",
     "d2-21-8f3c2a71": "2-21",
     "d2-22-b4e719c6": "2-22",
-    "d2-23-37c1e8a4": "2-23"
+    "d2-23-37c1e8a4": "2-23",
+    "d2-25-6ac3f4": "2-25"
   },
   "lessons": [
     {
@@ -648,6 +649,14 @@
       "topic": "Unit 8 - Asking for Advice",
       "type": "debate",
       "slug": "d2-24-58c94601"
+    },
+    {
+      "course": 2,
+      "number": 25,
+      "unit": 9,
+      "topic": "Unit 9 - Closing Stores on Sundays",
+      "type": "theory",
+      "slug": "d2-25-6ac3f4"
     }
   ]
 }
