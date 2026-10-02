@@ -21,6 +21,9 @@ SITE_MAP["d2-25-6ac3f4"]="2-25";
 COURSES[1].lessons.push({"course":2,"number":26,"unit":9,"topic":"Unit 9 - Closing Stores on Sundays","type":"writing","slideId":"18kDWrC9vUwacQMdginPfakWa5c8YC-8ZheLHDK1XeDc","slideUrl":"https://docs.google.com/presentation/d/18kDWrC9vUwacQMdginPfakWa5c8YC-8ZheLHDK1XeDc/edit","videos":[],"sourceLabel":"Debate 2 - Tiết 26"});
 SITE_MAP["d2-26-8d108574"]="2-26";
 
+COURSES[1].lessons.push({"course":2,"number":27,"unit":9,"topic":"Unit 9 - Closing Stores on Sundays","type":"debate","slideId":"12x6nKXTNfRO0ZMSpjE7PBzXYcnygzhMIfufl__JNj2k","slideUrl":"https://docs.google.com/presentation/d/12x6nKXTNfRO0ZMSpjE7PBzXYcnygzhMIfufl__JNj2k/edit","videos":[],"sourceLabel":"Debate 2 - Tiết 27"});
+SITE_MAP["d2-27-e4870700"]="2-27";
+
 function escapeHtml(value){return String(value ?? "").replace(/[&<>"']/g,ch=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"})[ch]);}
 function cleanTopic(topic){return topic.replace(/^Unit\s*\d+\s*-\s*/i,"").trim();}
 function lessonKey(){
