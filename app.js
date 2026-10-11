@@ -24,6 +24,10 @@ SITE_MAP["d2-26-8d108574"]="2-26";
 COURSES[1].lessons.push({"course":2,"number":27,"unit":9,"topic":"Unit 9 - Closing Stores on Sundays","type":"debate","slideId":"12x6nKXTNfRO0ZMSpjE7PBzXYcnygzhMIfufl__JNj2k","slideUrl":"https://docs.google.com/presentation/d/12x6nKXTNfRO0ZMSpjE7PBzXYcnygzhMIfufl__JNj2k/edit","videos":[],"sourceLabel":"Debate 2 - Tiết 27"});
 SITE_MAP["d2-27-e4870700"]="2-27";
 
+COURSES[1].lessons.find(item=>item.number===27).homework={"title": "Tổng kết buổi tranh biện", "items": ["Xem lại slide Debate Day và ghi lại một luận điểm mạnh của mình.", "Ghi lại một điểm cần cải thiện về lập luận, phát âm hoặc cách trình bày."]};
+COURSES[1].lessons.push({"course": 2, "number": 28, "unit": 10, "topic": "Unit 10 - Should School Sports Be Optional?", "type": "theory", "slideId": "1uWWlUw-cN8OiQVMW90KB5CnbOIag5cfVFzFDqFHskQU", "slideUrl": "https://docs.google.com/presentation/d/1uWWlUw-cN8OiQVMW90KB5CnbOIag5cfVFzFDqFHskQU/edit", "videos": [], "sourceLabel": "Debate 2 - Tiết 28", "homework": {"title": "Ôn bài và chuẩn bị ý tưởng: Should School Sports Be Optional?", "items": ["Xem lại slide Unit 10. Phân biệt hai quan điểm: học sinh được chọn có tham gia giờ thể dục hay không; mọi học sinh đều tham gia giờ thể dục.", "Tra từ điển, ghi nghĩa tiếng Việt và luyện đọc các từ/cụm từ trong bài: physical education (P.E.), optional, exhausted, concentrate on, obese, keep in shape, teamwork, communication, quit, leadership. Đặt 3 câu với 3 từ/cụm từ con chọn.", "Ghi 2 lí do ủng hộ và 2 lí do phản đối việc để giờ thể dục thành môn tự chọn. Với mỗi phía, thêm 1 ví dụ cụ thể. Dùng khung: I think… because… For example…", "Chọn 1 ý kiến trong phần Refuting Opinions và luyện phản hồi bằng 2–3 câu: I understand your point, but… because… Mang phần từ vựng và ý tưởng đến buổi Writing tiếp theo."]}});
+SITE_MAP["d2-28-4e48af63"]="2-28";
+
 function escapeHtml(value){return String(value ?? "").replace(/[&<>"']/g,ch=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"})[ch]);}
 function cleanTopic(topic){return topic.replace(/^Unit\s*\d+\s*-\s*/i,"").trim();}
 function lessonKey(){
@@ -45,6 +49,7 @@ function youtubeEmbed(url){
   try{const parsed=new URL(url);let id="";if(parsed.hostname.includes("youtu.be"))id=parsed.pathname.slice(1);else id=parsed.searchParams.get("v")||(parsed.pathname.match(/\/embed\/([^/]+)/)?.[1]||"");return id?"https://www.youtube-nocookie.com/embed/"+id:null;}catch{return null;}
 }
 function taskFor(lesson,list){
+  if(lesson.homework)return {nextTheory:null,...lesson.homework};
   const index=list.findIndex(item=>item.number===lesson.number);
   const nextTheory=list.slice(index+1).find(item=>item.type==="theory")||null;
   if(lesson.type==="theory") return {nextTheory,title:'Ôn bài và học từ mới của chủ đề “'+cleanTopic(lesson.topic)+'”',items:["Ôn lại nội dung bài học trên slide.","Tra cứu thêm từ điển, thuộc nghĩa và hiểu cách sử dụng của các từ mới đã được học."]};
